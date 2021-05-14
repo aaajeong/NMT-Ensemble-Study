@@ -10,22 +10,22 @@
 1. **nmt_with_attention.ipynb**
 
    - 코드
-   - Training DataSet
-   - Training Checkpoint
+   - Training DataSet : spa.txt - [0:30000]
+   - Training Checkpoint: training_checkpoints
 
    - **nmt_with_attention_Test.ipynb**
 
 2. **nmt_with_attetntion_Ensemble_HardVoting.ipynb**
 
    - 코드
-   - Training DataSet
-   - Training Checkpoint
+   - Training DataSet : spa.txt - [0:30000], [30000:60000], [60000:90000]
+   - Training Checkpoint : training_checkpoints, training_checkpoints_2, training_checkpoints_3
 
 3. **nmt_with_attention_Ensemble_SoftVoting.ipynb**
 
    - 코드
-   - Training DataSet
-   - Training Checkpoint
+   - Training DataSet : text.txt - [0:30000]
+   - Training Checkpoint : training_checkpoints_randomly data
 
 4. **nmt_with_attention_randomly_data.ipynb**
 
