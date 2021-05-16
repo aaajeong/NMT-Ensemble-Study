@@ -42,3 +42,14 @@ training_checkpoints_randomly data/ckpt-4.data-00000-of-00001
 training_checkpoints_randomly data/ckpt-4.index
 training_checkpoints_randomly data/ckpt-5.data-00000-of-00001
 training_checkpoints_randomly data/ckpt-5.index
+training_checkpoints_randomly data2/checkpoint
+training_checkpoints_randomly data2/ckpt-1.data-00000-of-00001
+training_checkpoints_randomly data2/ckpt-1.index
+training_checkpoints_randomly data2/ckpt-2.data-00000-of-00001
+training_checkpoints_randomly data2/ckpt-2.index
+training_checkpoints_randomly data2/ckpt-3.data-00000-of-00001
+training_checkpoints_randomly data2/ckpt-3.index
+training_checkpoints_randomly data2/ckpt-4.data-00000-of-00001
+training_checkpoints_randomly data2/ckpt-4.index
+training_checkpoints_randomly data2/ckpt-5.data-00000-of-00001
+training_checkpoints_randomly data2/ckpt-5.index
