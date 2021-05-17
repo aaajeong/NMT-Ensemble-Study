@@ -49,7 +49,7 @@
 
 	#### 	💥문제 발견 설명💥 
 
-	- 앙상블 보팅 과정에서 모델 동작 확인
+	- [앙상블 보팅 과정에서 모델 동작 확인](https://github.com/aaajeong/Attention-Ensemble-Translation/commit/5799477fe58b9194502bbcf8ac0a4f5100d00fdc)
  - 문제 발견
     -  각 모델에서 만든 데이터 딕셔너리 (ex. {1:'start', ..., 36:'cold'}) 형태가 다 다름. 그런  데도 불구하고 prediction 의 결과를 모델 1의 targ_lang 딕셔너리에서 불러오고 있었음.
       	- 👉 모델 2, 3 의 데이터 딕셔너리를 무시한 꼴
