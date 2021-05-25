@@ -64,3 +64,16 @@ training_checkpoints_randomly data3/ckpt-4.data-00000-of-00001
 training_checkpoints_randomly data3/ckpt-4.index
 training_checkpoints_randomly data3/ckpt-5.data-00000-of-00001
 training_checkpoints_randomly data3/ckpt-5.index
+training_checkpoints_esb/checkpoint
+training_checkpoints_esb/ckpt-0-1.data-00000-of-00001
+training_checkpoints_esb/ckpt-0-1.index
+training_checkpoints_esb/ckpt-0-2.data-00000-of-00001
+training_checkpoints_esb/ckpt-0-2.index
+training_checkpoints_esb/ckpt-1-1.data-00000-of-00001
+training_checkpoints_esb/ckpt-1-1.index
+training_checkpoints_esb/ckpt-1-2.data-00000-of-00001
+training_checkpoints_esb/ckpt-1-2.index
+training_checkpoints_esb/ckpt-2-1.data-00000-of-00001
+training_checkpoints_esb/ckpt-2-1.index
+training_checkpoints_esb/ckpt-2-2.data-00000-of-00001
+training_checkpoints_esb/ckpt-2-2.index
