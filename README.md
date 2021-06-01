@@ -56,7 +56,34 @@
     - checkpoint 를 하나만 남겨도 동작함
       	- 👉 checkpoint 를 여러개 만들어서 불러와도 마지막으로 불린 체크포인트만 적용. 따라서 첫번째 모델은 제대로 동작하지만 나머지2,3 모델은 쓰레기값이 들어가고 있었음.
    - **이 두가지 해결해서 다시 앙상블 정확도 확인!!**
-     - 새로운 파일 : re-nmt_Ensemble_HardVoting.ipynb , re-nmt_with_Ensemble_SoftVoting.ipynb
+     - **새로운 파일 : re-nmt_Ensemble_HardVoting.ipynb , re-nmt_with_Ensemble_SoftVoting.ipynb**
+
+---
 
 
+
+#### 🔎 Ensemble 을 이용한 NMT 정확도 확인
+
+- Model 개수 : 3개
+
+- 트레이닝 데이터 : spa-eng/spa_for_esb.txt
+
+- Training Checkpoint : 각 3개의 모델에 대한 파일
+
+  - Model 1 : training_checkpoints_esb
+  - Model 2 : training_checkpoints_esb 2
+  - Model 3 : training_checkpoints_esb 3
+
+- 각 모델은 트레이닝 데이터의 [0:30000] 라인 까지의 데이터를 사용했다. 
+
+  24000 : 6000 의 비율로 학습/검증 데이터셋을 나누고 훈련/검증 데이터는 shuffle 되어 학습되었다.
+
+1. HardVoting
+   - re_nmt_Ensemble_HardVoting.ipynb
+2. SoftVoting
+   - re_nmt_Ensemble_SoftVoting.ipynb
+
+➡️ 각 보팅 방법에 대한 정확도는 피피티에 설명 있음.
+
+ 
 
