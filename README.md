@@ -62,7 +62,7 @@
 
 
 
-#### 🔎 Ensemble 을 이용한 NMT 정확도 확인
+#### 🔎 Ensemble 을 이용한 NMT 정확도 확인(Model 3개)
 
 - Model 개수 : 3개
 
@@ -86,4 +86,8 @@
 ➡️ 각 보팅 방법에 대한 정확도는 피피티에 설명 있음.
 
  
+
+#### 🔎 Ensemble 을 이용한 NMT 정확도 확인(Model 5개)
+
+- Model 개수 : 5개
 
