@@ -91,3 +91,11 @@
 
 - Model 개수 : 5개
 
+
+
+
+
+#### 🔎 Ensemble 을 이용한 NMT 정확도 확인(Model 5개, 60000 line)
+
+- Model 개수 : 5개
+
