@@ -91,3 +91,26 @@
 
 - Model 개수 : 5개
 
+
+
+
+
+#### 🔎 Ensemble 을 이용한 NMT 정확도 확인(Model 5개, 60000 line)
+
+- Model 개수 : 5개
+- 트레이닝 데이터 : 
+- Training Checkpoints : 
+
+1. HareVoting
+   - 파일 : nmt_Ensemble_HCompare.ipynb
+2. SoftVoting
+   - 파일 : nmt_Ensemble_SCompare.ipynb
+
+
+
+
+
+#### 🔎 Ensemble 을 이용한 NMT 정확도 확인 & Confidence 고려 (Model 5개, 60000 line)
+
+- Model 개수 : 5개
+
