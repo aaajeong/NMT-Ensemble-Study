@@ -103,8 +103,15 @@
 
 1. HareVoting
    - 파일 : nmt_Ensemble_HCompare.ipynb
+   
 2. SoftVoting
    - 파일 : nmt_Ensemble_SCompare.ipynb
+   
+3. 5개 single model VS 5 Model Ensemble 정확도 비교
+
+   - 파일 : Accuracy_Compare.xlsx
+
+     
 
 
 
@@ -113,4 +120,24 @@
 #### 🔎 Ensemble 을 이용한 NMT 정확도 확인 & Confidence 고려 (Model 5개, 60000 line)
 
 - Model 개수 : 5개
+
+
+
+
+
+
+
+#### 🔎 Super Model(5배 학습한 단일모델) & Ensemble 정확도 비교
+
+- Super Model : 데이터 5배 학습한 단일 모델
+
+  - 파일(Test) : nmt_SuperModel.ipynb
+
+  - 파일(Training) : nmt_SuperModel_Training.ipynb
+
+    
+
+- Ensemble Model : time-step 마다 5 sigle model 의 앙상블을 적용한 모델
+
+
 
