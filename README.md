@@ -130,7 +130,13 @@
 #### 🔎 Super Model(5배 학습한 단일모델) & Ensemble 정확도 비교
 
 - Super Model : 데이터 5배 학습한 단일 모델
-  - 파일 : 
+
+  - 파일(Test) : nmt_SuperModel.ipynb
+
+  - 파일(Training) : nmt_SuperModel_Training.ipynb
+
+    
+
 - Ensemble Model : time-step 마다 5 sigle model 의 앙상블을 적용한 모델
 
 
