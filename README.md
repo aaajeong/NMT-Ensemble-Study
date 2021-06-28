@@ -129,15 +129,27 @@
 
 #### 🔎 Super Model(5배 학습한 단일모델) & Ensemble 정확도 비교
 
-- Super Model : 데이터 5배 학습한 단일 모델
+- Super Model ~~: 데이터 5배 학습한 단일 모델~~
 
-  - 파일(Test) : nmt_SuperModel.ipynb
+  - ~~파일(Test) : nmt_SuperModel.ipynb~~
 
-  - 파일(Training) : nmt_SuperModel_Training.ipynb
+  - ~~파일(Training) : nmt_SuperModel_Training.ipynb~~
 
     
 
-- Ensemble Model : time-step 마다 5 sigle model 의 앙상블을 적용한 모델
+- ~~Ensemble Model : time-step 마다 5 sigle model 의 앙상블을 적용한 모델~~
 
+- Super Model : 5배 학습한 단일 모델 👉 Epoch 을 5배로 학습
 
+  - 파일(Test) : nmt_SuperModel.ipynb
+  - 파일(Training) : nmt_SuperModel_Training.ipynb
+  - Training Checkpoint : super_checkpoint
+  - 학습 검증용 테스트 데이터셋 : test_data.txt
+
+- Ensemble Model : time-step 마다 5 single model 의 앙상블을 적용한 모델
+
+- Super Model VS Ensemble 정확도 비교
+
+  - Accuracy_Compare.xlsx
+  - SuperModel_Result.xlsx
 
