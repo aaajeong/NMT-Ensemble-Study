@@ -153,3 +153,13 @@
   - Accuracy_Compare.xlsx
   - SuperModel_Result.xlsx
 
+
+
+
+
+#### 🔎 Super Model & Ensemble 성능 비교 - BLEU 측정
+
+- 각 모델 별 BLEU Score 측정 표 : BLEU_Score.xlsx
+  - Super Model
+  - Ensemble Model
+  - Model 1 ~ Model 5 (Ensemble 개별 모델)
