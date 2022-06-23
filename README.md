@@ -130,17 +130,17 @@
 
 - Super Model : 5배 학습한 단일 모델 👉 Epoch 을 5배로 학습
 
-  - 파일(Test) : [nmt_SuperModel.ipynb](./Super Model/nmt_SuperModel.ipynb)
-  - 파일(Training) : [nmt_SuperModel_Training.ipynb](./Super Model/nmt_SuperModel_Training.ipynb)
-  - Training Checkpoint : [super_checkpoint](./Super Model/super_checkpoint)
-  - 학습 검증용 테스트 데이터셋 : [test_data.txt](./Super Model/test_data.txt)
+  - 파일(Test) : [nmt_SuperModel.ipynb](./Super_Model/nmt_SuperModel.ipynb)
+  - 파일(Training) : [nmt_SuperModel_Training.ipynb](./Super_Model/nmt_SuperModel_Training.ipynb)
+  - Training Checkpoint : [super_checkpoint](./Super_Model/super_checkpoint)
+  - 학습 검증용 테스트 데이터셋 : [test_data.txt](./Super_Model/test_data.txt)
 
 - [Ensemble Model(Soft Voting)](./nmt_Ensemble_SCompare.ipynb) : time-step 마다 5 single model 의 앙상블을 적용한 모델
 
 - Super Model VS Ensemble 정확도 비교
 
   - [Accuracy_Compare.xlsx](./Accuracy_Compare.xlsx)
-  - [SuperModel_Result.xlsx](./Super Model/SuperModel_Result.xlsx)
+  - [SuperModel_Result.xlsx](./Super_Model/SuperModel_Result.xlsx)
 
 - 정확도 비교
 
@@ -203,13 +203,13 @@
 
 - 각 모델 별 QE Score 측정 표 : [BLEU_Score.xlsx ](./BLEU/BLEU_Score.xlsx) 안에 QE Sheet
 
-  - [Ensemble Model](./BLEU/nmt_Ensemble_SCompare(for BLEU).ipynb)
+  - [Ensemble Model](./BLEU/nmt_Ensemble_SCompare(for\BLEU).ipynb)
 
   - [Model 1 ~ Model 5 (Ensemble 개별 모델)](./BLEU/re_nmt_Ensemble_Models(for BLEU).ipynb)
 
   - [Test Data](./BLEU/test_data.txt) : 학습하지 않은 1000개의 spa-eng 데이터
 
-  - [Training Data](./BLEU/spa-eng(for BLEU).txt)
+  - [Training Data](./BLEU/spa-eng(for\BLEU).txt)
 
   - [Training Checkpoint](./5 Models Checkpoints_60000) : 트레이닝 데이터 1~60000 line
 
