@@ -1,23 +1,22 @@
 # 🎓Attention-Ensemble-Translation🎓
-- [RNN Translation](https://github.com/aaajeong/RNN-Translation) - Tensorflow Attention 기계번역 Ensemble  연구 이어서
+- [RNN Translation](https://github.com/aaajeong/RNN-Translation) - Tensorflow Attention 기계번역 Ensemble  연구 이어서 진행.
 
 
 
 #### 📝 연구 주제 : Natural Language Translation 에서 Ensemble 을 사용하면 성능이 좋아질까?
 
----
 
 1. **nmt_with_attention.ipynb**
 
-   - [코드](https://github.com/aaajeong/Attention-Ensemble-Translation/blob/main/nmt_with_attention.ipynb)
+   - [코드](./nmt_with_attention.ipynb)
    - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : spa.txt - [0:30000]
    - Training Checkpoint: [training_checkpoints](https://drive.google.com/drive/u/0/folders/1WoHsFnNmx6xagcnkrl7bOM1SNw7qLWmw)
 
-   - [**nmt_with_attention_Test.ipynb**](https://github.com/aaajeong/Attention-Ensemble-Translation/blob/main/nmt_with_attetion_Test.ipynb)
+   - [**nmt_with_attention_Test.ipynb**](./nmt_with_attetion_Test.ipynb)
 
 2. **nmt_with_attetntion_Ensemble_HardVoting.ipynb**
 
-   - [코드](https://github.com/aaajeong/Attention-Ensemble-Translation/blob/main/nmt_with_attetion_Ensemble_HardVoting.ipynb)
+   - [코드](./nmt_with_attetion_Ensemble_HardVoting.ipynb)
    - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : spa.txt - [0:30000], [30000:60000], [60000:90000]
    - Training Checkpoint : [training_checkpoints](https://drive.google.com/drive/u/0/folders/1WoHsFnNmx6xagcnkrl7bOM1SNw7qLWmw), [training_checkpoints_2](https://drive.google.com/drive/u/0/folders/1Vx4OU_4Agiq36OH9LKGTfzqSmshbW9Da), [training_checkpoints_3](https://drive.google.com/drive/u/0/folders/1-krO5p1I3aV5J4HKlOjnsSLXmgOG3PIf)
 
@@ -25,7 +24,7 @@
 
 3. **nmt_with_attention_Ensemble_SoftVoting.ipynb**
 
-   - [코드](https://github.com/aaajeong/Attention-Ensemble-Translation/blob/main/nmt_with_attetion_Ensemble_SoftVoting.ipynb)
+   - [코드](./nmt_with_attetion_Ensemble_SoftVoting.ipynb)
    - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : spa.txt - [0:30000], [30000:60000], [60000:90000]
    - Training Checkpoint : [training_checkpoints](https://drive.google.com/drive/u/0/folders/1WoHsFnNmx6xagcnkrl7bOM1SNw7qLWmw), [training_checkpoints_2](https://drive.google.com/drive/u/0/folders/1Vx4OU_4Agiq36OH9LKGTfzqSmshbW9Da), [training_checkpoints_3](https://drive.google.com/drive/u/0/folders/1-krO5p1I3aV5J4HKlOjnsSLXmgOG3PIf)
 
@@ -33,13 +32,13 @@
 
 4. **nmt_with_attention_randomly_data.ipynb**
 
-   - [코드](https://github.com/aaajeong/Attention-Ensemble-Translation/blob/main/nmt_with_attention_randomly_data.ipynb)
+   - [코드](./nmt_with_attention_randomly_data.ipynb)
    - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : shuffle_spa-eng.txt [0:30000]
    - Training Checkpoint : [training_checkpoint_randomly data](https://drive.google.com/drive/u/0/folders/1-01hD59JDPZWdH1bZQXHspwKSVNti4B9)
 
 5. **nmt_with_attention_Ensemble_SoftVoting(2).ipynb**
 
-   - [코드](https://github.com/aaajeong/Attention-Ensemble-Translation/blob/main/nmt_with_attetion_Ensemble_SoftVoting(2).ipynb)
+   - [코드](./nmt_with_attetion_Ensemble_SoftVoting(2).ipynb)
    - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : shuffle_spa-eng.txt [0:30000]. shuffle_spa-eng2.txt [0:30000], shuffle_spa-en3g.txt [0:30000]
    - Training Checkpoint : [training_checkpoint_randomly data](https://drive.google.com/drive/u/0/folders/1-01hD59JDPZWdH1bZQXHspwKSVNti4B9), [training_checkpoint_randomly data2](https://drive.google.com/drive/u/0/folders/1-2qkWld7dhOPRPnS8HzqSYZuuSrC0j_f), [training_checkpoint_randomly data3](https://drive.google.com/drive/u/0/folders/1-jRAs-1mgZDhEfZ4iMXIYSZTJETYSaBK)
 
@@ -66,22 +65,22 @@
 
 - Model 개수 : 3개
 
-- 트레이닝 데이터 : [spa-eng/spa_for_esb.txt](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/spa-eng/spa_for_esb.txt)
+- 트레이닝 데이터 : [spa-eng/spa_for_esb.txt](./spa-eng/spa_for_esb.txt)
 
 - Training Checkpoint : 각 3개의 모델에 대한 파일
 
-  - Model 1 : [training_checkpoints_esb](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/3 Models Checkpoints/training_checkpoints_esb)
-  - Model 2 : [training_checkpoints_esb 2](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/3 Models Checkpoints/training_checkpoints_esb 2)
-  - Model 3 : [training_checkpoints_esb 3](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/3 Models Checkpoints/training_checkpoints_esb 3)
+  - Model 1 : [training_checkpoints_esb](./3 Models Checkpoints/training_checkpoints_esb)
+  - Model 2 : [training_checkpoints_esb 2](./3 Models Checkpoints/training_checkpoints_esb 2)
+  - Model 3 : [training_checkpoints_esb 3](./3 Models Checkpoints/training_checkpoints_esb 3)
 
 - 각 모델은 트레이닝 데이터의 [0:30000] 라인 까지의 데이터를 사용했다. 
 
   24000 : 6000 의 비율로 학습/검증 데이터셋을 나누고 훈련/검증 데이터는 shuffle 되어 학습되었다.
 
 1. HardVoting
-   - [re_nmt_Ensemble_HardVoting.ipynb](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/re_nmt_Ensemble_HardVoting.ipynb)
+   - [re_nmt_Ensemble_HardVoting.ipynb](./re_nmt_Ensemble_HardVoting.ipynb)
 2. SoftVoting
-   - [re_nmt_Ensemble_SoftVoting.ipynb](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/re_nmt_Ensemble_SoftVoting.ipynb)
+   - [re_nmt_Ensemble_SoftVoting.ipynb](./re_nmt_Ensemble_SoftVoting.ipynb)
 
 ➡️ 각 보팅 방법에 대한 정확도는 피피티에 설명 있음.
 
@@ -98,18 +97,18 @@
 #### 🔎 Ensemble 을 이용한 NMT 정확도 확인(Model 5개, 60000 line)
 
 - Model 개수 : 5개
-- 트레이닝 데이터 : [spa-eng/spa_for_esb.txt](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/spa-eng/spa_for_esb.txt)
-- [Training Checkpoints](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/5 Models Checkpoints_60000) 
+- 트레이닝 데이터 : [spa-eng/spa_for_esb.txt](./spa-eng/spa_for_esb.txt)
+- [Training Checkpoints](./5 Models Checkpoints_60000) 
 
 1. HareVoting
-   - 파일 : [nmt_Ensemble_HCompare.ipynb](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/nmt_Ensemble_HCompare.ipynb)
+   - 파일 : [nmt_Ensemble_HCompare.ipynb](./nmt_Ensemble_HCompare.ipynb)
    
 2. SoftVoting
-   - 파일 : [nmt_Ensemble_SCompare.ipynb](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/nmt_Ensemble_SCompare.ipynb)
+   - 파일 : [nmt_Ensemble_SCompare.ipynb](./nmt_Ensemble_SCompare.ipynb)
    
 3. 5개 single model VS 5 Model Ensemble 정확도 비교
 
-   - 파일 : [Accuracy_Compare.xlsx](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/Accuracy_Compare.xlsx)
+   - 파일 : [Accuracy_Compare.xlsx](./Accuracy_Compare.xlsx)
 
      
 
@@ -142,17 +141,17 @@
 
 - Super Model : 5배 학습한 단일 모델 👉 Epoch 을 5배로 학습
 
-  - 파일(Test) : [nmt_SuperModel.ipynb](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/Super Model/nmt_SuperModel.ipynb)
-  - 파일(Training) : [nmt_SuperModel_Training.ipynb](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/Super Model/nmt_SuperModel_Training.ipynb)
-  - Training Checkpoint : [super_checkpoint](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/Super Model/super_checkpoint)
-  - 학습 검증용 테스트 데이터셋 : [test_data.txt](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/Super Model/test_data.txt)
+  - 파일(Test) : [nmt_SuperModel.ipynb](./Super Model/nmt_SuperModel.ipynb)
+  - 파일(Training) : [nmt_SuperModel_Training.ipynb](./Super Model/nmt_SuperModel_Training.ipynb)
+  - Training Checkpoint : [super_checkpoint](./Super Model/super_checkpoint)
+  - 학습 검증용 테스트 데이터셋 : [test_data.txt](./Super Model/test_data.txt)
 
-- [Ensemble Model(Soft Voting)](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/nmt_Ensemble_SCompare.ipynb) : time-step 마다 5 single model 의 앙상블을 적용한 모델
+- [Ensemble Model(Soft Voting)](./nmt_Ensemble_SCompare.ipynb) : time-step 마다 5 single model 의 앙상블을 적용한 모델
 
 - Super Model VS Ensemble 정확도 비교
 
-  - [Accuracy_Compare.xlsx](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/Accuracy_Compare.xlsx)
-  - [SuperModel_Result.xlsx](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/Super Model/SuperModel_Result.xlsx)
+  - [Accuracy_Compare.xlsx](./Accuracy_Compare.xlsx)
+  - [SuperModel_Result.xlsx](./Super Model/SuperModel_Result.xlsx)
 
 - 정확도 비교
 
@@ -181,13 +180,13 @@
 
 #### 🔎 Ensemble VS Ensemble 에 사용된 단일 모델의 성능 비교 - BLEU 측정
 
-- 각 모델 별 BLEU Score 측정 표 : [BLEU_Score.xlsx](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/BLEU_Score.xlsx)
-  - [Ensemble Model](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/nmt_Ensemble_SCompare(for BLEU).ipynb)
-  - [Model 1 ~ Model 5 (Ensemble 개별 모델)](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/re_nmt_Ensemble_Models(for BLEU).ipynb)
-  - [Test Data](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/test_data.txt) : 학습하지 않은 1000개의 spa-eng 데이터
-  - [Training Data](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/spa-eng(for BLEU).txt)
-  - [Training Checkpoint](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/5 Models Checkpoints_60000) : 트레이닝 데이터 1~60000 line
-  - [BLEU 계산 코드](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/Calculate_BLEU.ipynb)
+- 각 모델 별 BLEU Score 측정 표 : [BLEU_Score.xlsx](./BLEU/BLEU_Score.xlsx)
+  - [Ensemble Model](./BLEU/nmt_Ensemble_SCompare(for BLEU).ipynb)
+  - [Model 1 ~ Model 5 (Ensemble 개별 모델)](./BLEU/re_nmt_Ensemble_Models(for BLEU).ipynb)
+  - [Test Data](./BLEU/test_data.txt) : 학습하지 않은 1000개의 spa-eng 데이터
+  - [Training Data](./BLEU/spa-eng(for BLEU).txt)
+  - [Training Checkpoint](./5 Models Checkpoints_60000) : 트레이닝 데이터 1~60000 line
+  - [BLEU 계산 코드](./BLEU/Calculate_BLEU.ipynb)
 
   |           | n-gram      | Ensemble (Soft  Voting) | Ensemble-Model1 | Ensemble-Model2 | Ensemble-Model3 | Ensemble-Model4 | Ensemble-Model5 |
   | --------- | ----------- | ----------------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
@@ -213,19 +212,19 @@
 
 #### 🔎 Ensemble VS Ensemble 에 사용된 단일 모델의 성능 비교 - QE(in Python Package) 측정
 
-- 각 모델 별 QE Score 측정 표 : [BLEU_Score.xlsx ](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/BLEU_Score.xlsx) 안에 QE Sheet
+- 각 모델 별 QE Score 측정 표 : [BLEU_Score.xlsx ](./BLEU/BLEU_Score.xlsx) 안에 QE Sheet
 
-  - [Ensemble Model](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/nmt_Ensemble_SCompare(for BLEU).ipynb)
+  - [Ensemble Model](./BLEU/nmt_Ensemble_SCompare(for BLEU).ipynb)
 
-  - [Model 1 ~ Model 5 (Ensemble 개별 모델)](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/re_nmt_Ensemble_Models(for BLEU).ipynb)
+  - [Model 1 ~ Model 5 (Ensemble 개별 모델)](./BLEU/re_nmt_Ensemble_Models(for BLEU).ipynb)
 
-  - [Test Data](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/test_data.txt) : 학습하지 않은 1000개의 spa-eng 데이터
+  - [Test Data](./BLEU/test_data.txt) : 학습하지 않은 1000개의 spa-eng 데이터
 
-  - [Training Data](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/spa-eng(for BLEU).txt)
+  - [Training Data](./BLEU/spa-eng(for BLEU).txt)
 
-  - [Training Checkpoint](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/5 Models Checkpoints_60000) : 트레이닝 데이터 1~60000 line
+  - [Training Checkpoint](./5 Models Checkpoints_60000) : 트레이닝 데이터 1~60000 line
 
-  - [QE 계산 코드](/Users/ahjeong_park/Study/Attention-Ensemble-Translation/BLEU/Calculate_QE.ipynb)
+  - [QE 계산 코드](./BLEU/Calculate_QE.ipynb)
 
     |                                               | Ensemble (Soft  Voting) | Ensemble-Model1 | Ensemble-Model2 | Ensemble-Model3 | Ensemble-Model4 | Ensemble-Model5 |
     | --------------------------------------------- | ----------------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
