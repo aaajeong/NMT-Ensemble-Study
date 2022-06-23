@@ -9,38 +9,27 @@
 1. **nmt_with_attention.ipynb**
 
    - [코드](./nmt_with_attention.ipynb)
-   - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : spa.txt - [0:30000]
-   - Training Checkpoint: [training_checkpoints](https://drive.google.com/drive/u/0/folders/1WoHsFnNmx6xagcnkrl7bOM1SNw7qLWmw)
-
    - [**nmt_with_attention_Test.ipynb**](./nmt_with_attetion_Test.ipynb)
 
 2. **nmt_with_attetntion_Ensemble_HardVoting.ipynb**
 
    - [코드](./nmt_with_attetion_Ensemble_HardVoting.ipynb)
-   - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : spa.txt - [0:30000], [30000:60000], [60000:90000]
-   - Training Checkpoint : [training_checkpoints](https://drive.google.com/drive/u/0/folders/1WoHsFnNmx6xagcnkrl7bOM1SNw7qLWmw), [training_checkpoints_2](https://drive.google.com/drive/u/0/folders/1Vx4OU_4Agiq36OH9LKGTfzqSmshbW9Da), [training_checkpoints_3](https://drive.google.com/drive/u/0/folders/1-krO5p1I3aV5J4HKlOjnsSLXmgOG3PIf)
 
    **💥 문제 발견 💥**
 
 3. **nmt_with_attention_Ensemble_SoftVoting.ipynb**
 
    - [코드](./nmt_with_attetion_Ensemble_SoftVoting.ipynb)
-   - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : spa.txt - [0:30000], [30000:60000], [60000:90000]
-   - Training Checkpoint : [training_checkpoints](https://drive.google.com/drive/u/0/folders/1WoHsFnNmx6xagcnkrl7bOM1SNw7qLWmw), [training_checkpoints_2](https://drive.google.com/drive/u/0/folders/1Vx4OU_4Agiq36OH9LKGTfzqSmshbW9Da), [training_checkpoints_3](https://drive.google.com/drive/u/0/folders/1-krO5p1I3aV5J4HKlOjnsSLXmgOG3PIf)
 
    **💥 문제 발견 💥**
 
 4. **nmt_with_attention_randomly_data.ipynb**
 
    - [코드](./nmt_with_attention_randomly_data.ipynb)
-   - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : shuffle_spa-eng.txt [0:30000]
-   - Training Checkpoint : [training_checkpoint_randomly data](https://drive.google.com/drive/u/0/folders/1-01hD59JDPZWdH1bZQXHspwKSVNti4B9)
 
 5. **nmt_with_attention_Ensemble_SoftVoting(2).ipynb**
 
    - [코드](./nmt_with_attetion_Ensemble_SoftVoting(2).ipynb)
-   - [Training DataSet](https://drive.google.com/drive/u/0/folders/1pRSxMkYVS2ZyDO9P43VxzWfziiqZxT4G) : shuffle_spa-eng.txt [0:30000]. shuffle_spa-eng2.txt [0:30000], shuffle_spa-en3g.txt [0:30000]
-   - Training Checkpoint : [training_checkpoint_randomly data](https://drive.google.com/drive/u/0/folders/1-01hD59JDPZWdH1bZQXHspwKSVNti4B9), [training_checkpoint_randomly data2](https://drive.google.com/drive/u/0/folders/1-2qkWld7dhOPRPnS8HzqSYZuuSrC0j_f), [training_checkpoint_randomly data3](https://drive.google.com/drive/u/0/folders/1-jRAs-1mgZDhEfZ4iMXIYSZTJETYSaBK)
 
    **💥 문제 발견 💥**
 
@@ -48,7 +37,7 @@
 
 #### 💥문제 발견 설명💥
 
-	- [앙상블 보팅 과정에서 모델 동작 확인](https://github.com/aaajeong/Attention-Ensemble-Translation/commit/5799477fe58b9194502bbcf8ac0a4f5100d00fdc)
+	- [앙상블 보팅 과정에서 모델 동작 확인](https://github.com/aaajeong/NMT-Ensemble-Study/commit/5799477fe58b9194502bbcf8ac0a4f5100d00fdc)
  - 문제 발견
     -  각 모델에서 만든 데이터 딕셔너리 (ex. {1:'start', ..., 36:'cold'}) 형태가 다 다름. 그런  데도 불구하고 prediction 의 결과를 모델 1의 targ_lang 딕셔너리에서 불러오고 있었음.
       	- 👉 모델 2, 3 의 데이터 딕셔너리를 무시한 꼴
